@@ -1,0 +1,22 @@
+Guru Meditation Error: Core 1 panic'ed (StoreProhibited). Exception was unhandled.
+Core 1 register dump:
+PC : 0x40001406 PS : 0x00060630 A0 : 0x800e2399 A1 : 0x3ffb1df0
+A2 : 0x00000000 A3 : 0x3ffc8bf0 A4 : 0x000000ff A5 : 0x0000ff00
+A6 : 0x00ff0000 A7 : 0xff000000 A8 : 0x65757274 A9 : 0x3ffb1dc0
+A10 : 0x00000000 A11 : 0x3ffc8bec A12 : 0x00000000 A13 : 0x00000001
+A14 : 0x00000000 A15 : 0x00000002 SAR : 0x0000000a EXCCAUSE: 0x0000001d
+EXCVADDR: 0x00000000 LBEG : 0x400013f9 LEND : 0x4000140d LCOUNT : 0xffffffff
+ELF file SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+Backtrace: 0x40001406:0x3ffb1df0 0x400e2396:0x3ffb1e00 0x400e1c65:0x3ffb1e50 0x400e1b75:0x3ffb1fb0 0x4008f8d9:0x3ffb1fd0
+Rebooting...
+ets Jun 8 2016 00:22:57
+rst:0xc (SW_CPU_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:928
+ho 0 tail 12 room 4
+load:0x40078000,len:9504
+load:0x40080400,len:5900
+entry 0x40080698

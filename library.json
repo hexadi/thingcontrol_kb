@@ -1,0 +1,17 @@
+{
+    "name" : "thingcontrol",
+    "title": "Thingcontrol",
+    "keywords": "wifi",
+    "category":"",
+    "description": "ThingControl",
+    "git": "",
+    "author": "thingcontrol",
+    "email": "",
+    "url": "http://www.kbide.org",
+    "version": "1.0.0",
+    "board" : "",
+    "platform": ["arduino-esp32"],
+    "license": "",
+    "image" : "",
+    "homepage": "http://www.kbide.org"
+  }

@@ -1,0 +1,3 @@
+Blockly.Msg.THINGCONTROL_SET_ACCESS_TOKEN_MESSAGE = "Set Access Token";
+Blockly.Msg.THINGCONTROL_TOKEN_INPUT_EXAMPLE = "Your Token"
+Blockly.Msg.THINGCONTROL_SEND_MESSAGE = "Send %1 Key %2 Message %3";
